@@ -1,6 +1,5 @@
 class KomaList {
   AbstractKoma[] komaArray = new AbstractKoma[10];
-
   AbstractKoma getSelectedKoma() {
       for (AbstractKoma k : komaArray) {
         if (k.kStat.selected) return k;
